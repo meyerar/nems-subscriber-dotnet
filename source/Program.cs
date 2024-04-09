@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using GuaranteedSubscriber;
 
 var configuration = new ConfigurationBuilder()
-    .AddJsonFile("properties.json")
+    .AddJsonFile("config/properties.json")
     .Build();
 
 #if (!DEBUG)
